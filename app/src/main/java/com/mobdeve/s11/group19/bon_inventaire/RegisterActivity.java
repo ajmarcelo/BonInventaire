@@ -100,19 +100,24 @@ public class RegisterActivity extends AppCompatActivity {
             this.etName.requestFocus();
             hasError = true;
         }
-        if(email.isEmpty()) {
+        else if(email.isEmpty()) {
             this.etEmail.setError("Required Field");
             this.etEmail.requestFocus();
             hasError = true;
         }
-        if(password.isEmpty()) {
+        else if(password.isEmpty()) {
             this.etPassword.setError("Required Field");
             this.etPassword.requestFocus();
             hasError = true;
         }
-        if(confirmPassword.isEmpty()) {
+        else if(confirmPassword.isEmpty()) {
             this.etConfirmPassword.setError("Required Field");
             this.etConfirmPassword.requestFocus();
+            hasError = true;
+        }
+        else if(password.length() > 8) {
+            this.etPassword.setError("Password exceeded 8 characters");
+            this.etPassword.requestFocus();
             hasError = true;
         }
         else if(!confirmPassword.equals(password)) {
@@ -120,6 +125,7 @@ public class RegisterActivity extends AppCompatActivity {
             this.etConfirmPassword.requestFocus();
             hasError = true;
         }
+
         return hasError;
     }
 

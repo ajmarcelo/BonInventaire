@@ -14,7 +14,6 @@ public class Item {
         this.itemNumStocks = itemNumStocks;
         this.itemExpireDate = itemExpireDate;
         this.itemID = itemID;
-
     }
 
     public String getItemName() {

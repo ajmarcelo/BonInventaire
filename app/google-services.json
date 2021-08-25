@@ -1,34 +1,92 @@
 {
   "project_info": {
-    "project_number": "1089363960123",
-    "firebase_url": "https://bon-inventaire-cd0a6-default-rtdb.asia-southeast1.firebasedatabase.app",
-    "project_id": "bon-inventaire-cd0a6",
-    "storage_bucket": "bon-inventaire-cd0a6.appspot.com"
+    "project_number": "402325798986",
+    "firebase_url": "https://mobedeve-test-server-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "mobedeve-test-server",
+    "storage_bucket": "mobedeve-test-server.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1089363960123:android:c269d4fc23a35d5fde971e",
+        "mobilesdk_app_id": "1:402325798986:android:3861e5ce945c57460d26b3",
         "android_client_info": {
-          "package_name": "com.mobdeve.s11.group19.bon_inventaire"
+          "package_name": "com.mobdeve.s11.edralin.john.testingfrybase"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1089363960123-edknn75clfec0igos2q13kljb0b3e6mb.apps.googleusercontent.com",
+          "client_id": "402325798986-s0fvuulqjnlkfbphl2habvjg7ircmipn.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA5rCdoaqsdQa-shn8hoY6qNkuKzatuJTc"
+          "current_key": "AIzaSyB1mohEWmbESZ5_BLNhIFo07ZMx86YQaSo"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1089363960123-edknn75clfec0igos2q13kljb0b3e6mb.apps.googleusercontent.com",
+              "client_id": "402325798986-s0fvuulqjnlkfbphl2habvjg7ircmipn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402325798986:android:a6651976c443436f0d26b3",
+        "android_client_info": {
+          "package_name": "com.mobdeve.s11.edralin.john_rey.testproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402325798986-s0fvuulqjnlkfbphl2habvjg7ircmipn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1mohEWmbESZ5_BLNhIFo07ZMx86YQaSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402325798986-s0fvuulqjnlkfbphl2habvjg7ircmipn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402325798986:android:b19100e27a2a43340d26b3",
+        "android_client_info": {
+          "package_name": "com.mobdeve.s11.group19.bon_inventaire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402325798986-s0fvuulqjnlkfbphl2habvjg7ircmipn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1mohEWmbESZ5_BLNhIFo07ZMx86YQaSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402325798986-s0fvuulqjnlkfbphl2habvjg7ircmipn.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
