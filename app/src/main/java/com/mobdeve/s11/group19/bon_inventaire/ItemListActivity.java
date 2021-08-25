@@ -203,4 +203,25 @@ public class ItemListActivity extends AppCompatActivity {
             }
         });
     }
+
+    private void loadData() {
+        Intent intent = getIntent();
+
+        String list = intent.getStringExtra(EditListActivity.KEY_LIST);
+        String desc = intent.getStringExtra(EditListActivity.KEY_DESCRIPTION);
+        int id = intent.getIntExtra(EditListActivity.KEY_ID,0);
+
+        tvTitle.setText(list);
+        tvDescription.setText(desc);
+
+        initRecyclerView();
+
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        this.loadData();
+    }
 }

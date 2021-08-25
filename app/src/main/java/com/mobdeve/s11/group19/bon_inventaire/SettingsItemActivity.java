@@ -82,6 +82,7 @@ public class SettingsItemActivity extends AppCompatActivity {
                 intent.putExtra(KEY_ID, info.getIntExtra(ItemViewActivity.KEY_ID,0));
 
                 startActivity(intent);
+                finish();
             }
         });
     }
